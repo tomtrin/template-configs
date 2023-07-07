@@ -5,9 +5,7 @@ npm i camelcase@6 --save-dev
 npm i jest-watch-typeahead --save-dev
 
 echo '*** Copy Jest config files'
-cp -r ../template-configs/config/ ./config
-cp ../template-configs/.swcrc ./.swcrc
-cp ../template-configs/jest.config.cjs ./jest.config.cjs
-cp ../template-configs/tsconfig.prod.json ./tsconfig.prod.json
-
-
+cp -r ../template-configs/swc-jest/config/ ./config
+cp ../template-configs/swc-jest/.swcrc ./.swcrc
+cp ../template-configs/swc-jest/jest.config.cjs ./jest.config.cjs
+cp ../template-configs/swc-jest/tsconfig.prod.json ./tsconfig.prod.json
